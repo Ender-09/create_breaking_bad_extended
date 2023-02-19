@@ -1,4 +1,6 @@
 {
   "item.create_broken_bad_extended.meth": "Meth",
-  "effect.create_broken_bad_extended.meth_effect": "Meth Addiction"
+  "item.create_broken_bad_extended.cocaine": "Cocaine",
+  "effect.create_broken_bad_extended.meth_effect": "Meth Addiction",
+  "effect.create_broken_bad_extended.cocaine_effect": "Cocaine Addiction"
 }
