@@ -4,12 +4,14 @@ import net.minecraft.world.food.FoodProperties;
 
 public class ModFoods {
     public static final FoodProperties METH;
+    public static final FoodProperties COCAINE;
 
     public ModFoods() {
 
     }
 
     static {
-            METH = (new FoodProperties.Builder()).nutrition(10).build();
+        METH = (new FoodProperties.Builder()).alwaysEat().fast().build();
+        COCAINE = (new FoodProperties.Builder()).alwaysEat().fast().build();
     }
 }

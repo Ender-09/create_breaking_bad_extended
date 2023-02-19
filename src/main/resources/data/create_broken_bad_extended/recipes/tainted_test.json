@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:cookie"
+    }
+  ],
+  "result": {
+    "item": "minecraft:cookie",
+    "nbt": {"create_broken_bad_extended.drug_taint": "meth"}
+  }
+}
