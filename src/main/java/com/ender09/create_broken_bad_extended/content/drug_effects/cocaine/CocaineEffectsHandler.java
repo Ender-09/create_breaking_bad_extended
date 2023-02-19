@@ -13,17 +13,17 @@ public class CocaineEffectsHandler extends DrugHandlerClass {
 
     public static final DrugEffectHandler[] highEffects = {
             new DrugEffectHandler(MobEffects.DAMAGE_BOOST, 2,7200),
-            new DrugEffectHandler(MobEffects.DIG_SPEED, 3,7200),
-            new DrugEffectHandler(MobEffects.MOVEMENT_SPEED, 3,7200),
+            new DrugEffectHandler(MobEffects.DIG_SPEED, 2,7200),
+            new DrugEffectHandler(MobEffects.MOVEMENT_SPEED, 2,7200),
     };
     public static final int totalHighEffectsDuration = 7200;
 
 
     public static final DrugEffectHandler[] crashEffects = {
             new DrugEffectHandler(MobEffects.BLINDNESS, 1, 1800),
-            new DrugEffectHandler(MobEffects.WEAKNESS, 2, 1800),
-            new DrugEffectHandler(MobEffects.DIG_SLOWDOWN, 3, 1800),
-            new DrugEffectHandler(MobEffects.CONFUSION, 3, 1800)
+            new DrugEffectHandler(MobEffects.WEAKNESS, 1, 1800),
+            new DrugEffectHandler(MobEffects.DIG_SLOWDOWN, 1, 1800),
+            new DrugEffectHandler(MobEffects.CONFUSION, 1, 1800)
     };
     public static final DrugEffectHandler[] crashRandomEffects = {
             new DrugEffectHandler(MobEffects.HARM, 3, 10, 10),
